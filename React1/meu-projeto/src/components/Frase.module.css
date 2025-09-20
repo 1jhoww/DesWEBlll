@@ -1,0 +1,9 @@
+.frase_container{
+background-color: #333;
+border: 1px dotted #111;
+}
+.fraseComponent{
+color: #fff;
+background-color: #333;
+margin: 0;
+}
