@@ -49,6 +49,16 @@ function App() {
      
      <SeuNome setNome={setNome}/>
      <Saudacao nome={nome}/>
+
+     <Router>
+       <Navbar/>
+       <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/contato" element={<Contato />} />
+        <Route path="/empresa" element={<Empresa />} />
+       </Routes>
+       <Footer/>
+     </Router>
        
     </div>
   );
